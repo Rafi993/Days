@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  background-color: rgb(15, 17, 26);
+  min-height: 100vh;
+}
+
+.app > h2 {
+  color: #ffcb6b;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  padding: 1em;
+}
+
+.app > h3 {
+  color: #ffcb6b;
+  margin: 0;
+  padding-left: 1.5em;
+  padding-top: 0.6em;
+}
+
+.formgroup {
+  padding-left: 1.7em;
+}
+
+option {
+  background-color: #282828;
+  color: #fff;
+}
+
+.value {
+  color: #ccc;
+  padding-right: 0.4em;
+}

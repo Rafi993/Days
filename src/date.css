@@ -1,0 +1,56 @@
+.react-datetime-picker__inputGroup,
+.react-datetime-picker__inputGroup__input {
+  /* background-color: rgb(15, 17, 26); */
+  color: #f3f3f3;
+}
+
+.react-datetime-picker__button:hover > svg {
+  stroke: #fff !important;
+}
+
+.react-datetime-picker__clear-button__icon,
+.react-datetime-picker__button svg {
+  stroke: #ccc;
+}
+react-datetime-picker__button__icon:hover,
+.react-datetime-picker__calendar-button__icon:hover,
+.react-datetime-picker__button__icon:hover {
+  stroke: #fff;
+}
+
+.react-calendar {
+  background: #000;
+  border: 1px solid #282828;
+  color: #f3f3f3;
+}
+
+.react-calendar__tile,
+.react-calendar__navigation__arrow,
+.react-calendar__navigation__label,
+.react-calendar__navigation__label {
+  background: #000 !important;
+  color: #ccc !important;
+}
+
+.react-calendar__navigation button:hover,
+.react-calendar__navigation__arrow:hover,
+.react-calendar__navigation button:focus,
+.react-calendar__navigation__arrow:focus {
+  color: #fff !important;
+  background: #000 !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #888;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile--hasActive {
+  background: #fff;
+  color: #000;
+}
+
+.react-calendar__tile:hover,
+.react-calendar__tile:focus {
+  background-color: #888 !important;
+}
