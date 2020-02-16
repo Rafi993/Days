@@ -13,6 +13,9 @@ const App = () => {
     [setDate]
   );
 
+  const todayWithoutTime = moment().startOf("day");
+  const dateWithoutTime = moment(date).startOf("day");
+
   return (
     <div className="app">
       <h2>Time past since</h2>
@@ -26,22 +29,30 @@ const App = () => {
       </div>
 
       <h3>
-        <span className="value">{moment().diff(moment(date), "years")}</span>
+        <span className="value">
+          {todayWithoutTime.diff(dateWithoutTime, "years")}
+        </span>
         Years
       </h3>
 
       <h3>
-        <span className="value">{moment().diff(moment(date), "months")}</span>
+        <span className="value">
+          {todayWithoutTime.diff(dateWithoutTime, "months")}
+        </span>
         Months
       </h3>
 
       <h3>
-        <span className="value">{moment().diff(moment(date), "weeks")}</span>
+        <span className="value">
+          {todayWithoutTime.diff(dateWithoutTime, "weeks")}
+        </span>
         Weeks
       </h3>
 
       <h3>
-        <span className="value">{moment().diff(moment(date), "days")}</span>
+        <span className="value">
+          {todayWithoutTime.diff(dateWithoutTime, "days")}
+        </span>
         Days
       </h3>
 
